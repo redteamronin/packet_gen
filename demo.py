@@ -4,6 +4,8 @@ from ping3 import ping
 import threading
 import time
 
+# Prerequisites: pip install flask requests ping3
+
 app = Flask(__name__)
 
 # Route to handle GET requests
